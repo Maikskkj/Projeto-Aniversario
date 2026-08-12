@@ -1,0 +1,49 @@
+.tela__principal .secao__inicial {
+  min-height: 100vh;
+  background-image: url("/images/background-mamis.webp");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tela__principal .secao__inicial .title {
+  font-family: var(--font-titulos);
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 2em;
+}
+
+.tela__principal .secao__inicial .title .title__destaque {
+  color: var(--dourado);
+}
+.tela__principal .secao__inicial .text {
+  text-align: center;
+  margin: 2em 2em;
+  font-size: 0.8rem;
+}
+
+.tela__principal .secao__inicial .container {
+  display: flex;
+  justify-content: center;
+}
+
+.tela__principal .secao__inicial .container .seta {
+  width: 40px;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+
+  transform: translateY(-50%);
+  animation: seta 1.5s infinite ease-in-out;
+}
+
+@keyframes seta {
+  0%,
+  100% {
+    transform: translate(-50%, 0);
+  }
+
+  50% {
+    transform: translate(-50%, 15px);
+  }
+}
