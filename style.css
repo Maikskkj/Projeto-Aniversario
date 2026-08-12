@@ -1,10 +1,20 @@
+@import url(./styles/inicio.css);
+
 :root {
-  --preto: (#0f0f10);
-  --cinza-escuro: (#1c1c1e);
-  --cinza-claro: (#2d2d31);
-  --branco: (#f5f5f7);
-  --dourado: (#dda73b);
+  --preto: #0f0f10;
+  --cinza-escuro: #1c1c1e;
+  --cinza-claro: #2d2d31;
+  --branco: #f5f5f7;
+  --dourado: #dda73b;
 
   --font-titulos: "Playfair Display";
   --font-textos: "inter";
+}
+
+body {
+  background-color: var(--preto);
+  color: var(--branco);
+  font-family: var(--font-textos);
+  font-weight: 400;
+  font-size: 1rem;
 }
