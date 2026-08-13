@@ -2,7 +2,7 @@
   min-height: 100vh;
   background-image: url("/images/background-mamis.webp");
   background-size: 100% auto;
-  background-position: center top;
+  background-position: center -45%;
   background-repeat: no-repeat;
 }
 
@@ -30,7 +30,7 @@
 .tela__principal .secao__inicial .container .seta {
   width: 40px;
   position: absolute;
-  bottom: 20%;
+  bottom: 60%;
   left: 50%;
 
   transform: translateY(-50%);
