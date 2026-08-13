@@ -1,5 +1,5 @@
 .tela__principal .secao__inicial {
-  min-height: 100vh;
+  min-height: 90vh;
   background-image: url("/images/background-mamis.webp");
   background-size: 100% auto;
   background-position: center -45%;
@@ -30,7 +30,7 @@
 .tela__principal .secao__inicial .container .seta {
   width: 40px;
   position: absolute;
-  bottom: 60%;
+  bottom: 5%;
   left: 50%;
 
   transform: translateY(-50%);
