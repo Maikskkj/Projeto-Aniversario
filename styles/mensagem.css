@@ -1,0 +1,66 @@
+.secao__mensagem {
+  background-color: var(--preto);
+  padding: 1em;
+}
+
+.secao__mensagem .container__icone {
+  display: flex;
+  justify-content: center;
+}
+
+.secao__mensagem .container__icone .icone__mail {
+  width: 60px;
+}
+
+.secao__mensagem .titulo__mensagem {
+  font-family: var(--font-titulos);
+  font-weight: 700;
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 1rem 0 2rem 0;
+}
+
+.secao__mensagem .mensagem {
+  text-align: justify;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+}
+
+.secao__mensagem .mensagem__versiculo {
+  text-align: justify;
+}
+
+.secao__mensagem .mensagem__versiculo strong {
+  font-weight: 900;
+}
+
+.secao__mensagem .container__icone .icone__heart {
+  width: 200px;
+  margin-top: 2em;
+  animation: bater 1.5s infinite;
+}
+@keyframes bater {
+  0% {
+    transform: scale(1);
+  }
+
+  15% {
+    transform: scale(1.15);
+  }
+
+  30% {
+    transform: scale(1);
+  }
+
+  45% {
+    transform: scale(1.15);
+  }
+
+  60% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
