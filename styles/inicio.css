@@ -1,3 +1,13 @@
+.tela__principal {
+  background: radial-gradient(
+    circle at 50% 50%,
+    #4a3a12 0%,
+    #211b0d 25%,
+    #0b0907 55%,
+    #0f0f10 100%
+  );
+}
+
 .tela__principal .secao__inicial {
   min-height: 90vh;
   background-image: url("/images/background-mamis.webp");

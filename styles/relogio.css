@@ -41,13 +41,13 @@
 
 .secao__relogio .contador .tempo span {
   font-family: var(--font-textos);
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 800;
 }
 
 .secao__relogio .contador .tempo small {
   font-family: var(--font-textos);
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: 800;
 }
 
