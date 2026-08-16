@@ -1,6 +1,7 @@
 @import url(./styles/inicio.css);
 @import url(./styles/relogio.css);
 @import url(./styles/mensagem.css);
+@import url(./styles/galeria.css);
 
 :root {
   --preto: #0f0f10;
