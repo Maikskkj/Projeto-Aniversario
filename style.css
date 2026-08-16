@@ -2,6 +2,7 @@
 @import url(./styles/relogio.css);
 @import url(./styles/mensagem.css);
 @import url(./styles/galeria.css);
+@import url(./styles/rodape.css);
 
 :root {
   --preto: #0f0f10;

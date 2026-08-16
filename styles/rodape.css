@@ -1,0 +1,21 @@
+.rodape {
+  padding: 2em;
+  margin-top: 5em;
+  background-color: var(--cinza-claro);
+}
+
+.rodape .rodape__container__image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rodape .rodape__container__image .image__rodape {
+  width: 60px;
+}
+
+.rodape .rodape__container__image span {
+  font-size: 0.8rem;
+  margin: 1em;
+}
