@@ -39,6 +39,10 @@
   display: block;
 }
 
+.secao__galeria .galeria .image__quatro {
+  margin-top: 2rem;
+}
+
 .modal {
   padding: 0;
   border: none;
