@@ -37,10 +37,7 @@
   height: 100%;
   object-fit: cover;
   display: block;
-}
-
-.secao__galeria .galeria .image__quatro {
-  margin-top: 2rem;
+  object-position: top;
 }
 
 .modal {
